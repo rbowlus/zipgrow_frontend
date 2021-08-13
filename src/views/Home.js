@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Kale1 from './image/Kale1.jpg'
-import Kale2 from './image/Kale2.jpg'
-import Kale3 from './image/Kale3.jpg'
-import Kale4 from './image/Kale4.jpg'
-import Kale5 from './image/Kale5.jpg'
-import Kale6 from './image/Kale6.jpg'
-import ZipGrow from './image/ZipGrow.jpg'
+import Kale1 from './imageMinify/Kale1.jpg'
+import Kale2 from './imageMinify/Kale2.jpg'
+import Kale3 from './imageMinify/Kale3.jpg'
+import Kale4 from './imageMinify/Kale4.jpg'
+import Kale5 from './imageMinify/Kale5.jpg'
+import Kale6 from './imageMinify/Kale6.jpg'
+import ZipGrow from './imageMinify/ZipGrow.jpg'
 
 
 export const Home = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import load_dotenv from 'dotenv';
+import env from 'react-dotenv';
 
 
 export const Contact = () => {
@@ -8,7 +8,7 @@ export const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_w4327i3', e.target, process.env.REACT_)
+        emailjs.sendForm('gmail', 'template_w4327i3', e.target, env.REACT_APP_EMAILJS_USER_ID )
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -16,6 +16,7 @@ export const Contact = () => {
           });
           e.target.reset()
     }
+
 
     return (
         <div className="font-weight-bold">
