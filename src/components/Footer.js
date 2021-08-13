@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 export const Footer = () => {
@@ -56,7 +56,7 @@ export const Footer = () => {
                                     <Link to="/about-hydroponics" className="text-grey">About Hydroponics</Link>
                                 </li>
                                 <li>
-                                    <a to="/about-arduino" className="text-grey">About Arduino</a>
+                                    <Link to="/about-arduino" className="text-grey">About Arduino</Link>
                                 </li>
                             </ul>
                         </div>

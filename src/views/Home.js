@@ -73,7 +73,7 @@ export const Home = () => {
             <div className="row mb-5">
                 <div className="col-lg-5 mb-4 mb-lg-0">
                     <img
-                        src={"https://via.placeholder.com/150"}
+                        src={"https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/520x330/604a3538c15e081937dbfbd20aa60aad/a/0/a000066_00.default.jpg"}
                         className="w-100 shadow-1-strong rounded mb-4"
                         alt=""
                     />
@@ -82,7 +82,7 @@ export const Home = () => {
                     <h3>What is an Arduino?</h3>
                     <p>Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices.</p>
                     <br />
-                    <Link to="/about-arduino">Learn about our system!</Link>
+                    <Link to="/about-arduino">Learn about our setup!</Link>
                 </div>
             </div>
         </div>
