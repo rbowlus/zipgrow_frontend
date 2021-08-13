@@ -28,7 +28,7 @@ export const AboutArduino = () => {
                 <div className="row mb-5">
                     <div className="col-lg-7 col-md-12 mb-4 mb-lg-0 align-self-center">
                         <h4>The Code</h4>
-                        <p></p>
+                        <p>This is a snippet of the code used to log the water level, temperature and humidity. It is designed to take a reading from each sensor at predefined intervals, and then store them in variables on the Arduino, where they are then sent to a cloud database to be analyzed and displayed here. The Arduino platform makes adding additional sensors to the system very simple, and typically takes no more than a few minutes of coding to start reading new data.</p>
                     </div>
                     <div className="col-lg-5 col-md-12 mb-4 mb-lg-0">
                         <img
