@@ -1,5 +1,4 @@
 import React from 'react'
-import ArduinoInWater from '../imageMinify/ArduinoInWater.jpg'
 import Arduino from '../imageMinify/Arduino.jpg'
 import Code from '../imageMinify/Arduino_Sensor_Code.png'
 
@@ -33,7 +32,7 @@ export const AboutArduino = () => {
                     </div>
                     <div className="col-lg-5 col-md-12 mb-4 mb-lg-0">
                         <img
-                            src="{Code}"
+                            src={Code}
                             className="w-100 shadow-1-strong rounded mb-4"
                             alt=""
                         />
