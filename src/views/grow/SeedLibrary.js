@@ -43,36 +43,39 @@ export default class SeedLibrary extends React.Component {
                     <h4>Check out the Seed Library!</h4>
                     <hr />
                 </div>
-                <div className="border border-dark rounded">
-                    <div className="row mb-5">
-                        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0 align-self-center">
-                            {this.state.items.map((seed) => (
+                
+                <div >
+                {this.state.items.map((seed) => (
+                    <div className="row mb-5 border border-dark rounded">
+                        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+                            
                                 <img
                                     // src="https://via.placeholder.com/150"
                                     src={seed.url}
-                                    className="w-100 shadow-1-strong rounded mb-4"
+                                    className="w-100 shadow-1-strong rounded mb-4 align-self-center"
                                     alt=""
                                 />
-                            ))}
+                           
                         </div>
                         <div className="col-lg-8 col-md-12 mb-4 mb-lg-0 align-self-center">
                             <ul className="list-unstyled">
-                                {this.state.items.map((seed) => (
+                                
                                     <li>
                                         <p>
-                                            <strong>Name:</strong> {seed.name}
+                                            <h2><strong>Name: {seed.name}</strong></h2> 
                                         </p>
                                         <p>
-                                            <strong>Variety:</strong> {seed.variety}
+                                            <h5><strong>Variety:</strong> {seed.variety}</h5>
                                         </p>
                                         <p>
                                             <strong>Brand:</strong> {seed.brand}
                                         </p>
                                     </li>
-                                ))}
+                                
                             </ul>
                         </div>
                     </div>
+                ))}
                 </div>
             </div>
         )
